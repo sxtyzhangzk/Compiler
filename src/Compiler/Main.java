@@ -67,7 +67,7 @@ public class Main {
 
     private static void translate() throws IOException {
         String assembly = Translator.getAssembly();
-        System.out.println(assembly);
+        //System.out.println(assembly);
         //System.err.println(assembly);
         File file = new File("program.asm");
         FileOutputStream fileOutputStream = new FileOutputStream(file);

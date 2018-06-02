@@ -11,3 +11,7 @@ export CCHK="java -classpath ./lib/antlr-4.7.1-complete.jar:./bin Compiler.Main"
 cat > program.txt   # save everything in stdin to program.txt
 
 $CCHK
+
+sed -n '2122p;2722p;2913p' program.asm 1>&2
+cat program.asm
+
